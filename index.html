@@ -19,7 +19,7 @@
       attribution: '© OpenStreetMap'
     }).addTo(map);
 
-    fetch('teste.geojson') // troque aqui pelo nome do arquivo que você subiu
+    fetch('teste4.geojson') // troque aqui pelo nome do arquivo que você subiu
       .then(response => response.json())
       .then(data => {
         L.geoJSON(data).addTo(map);
